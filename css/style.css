@@ -301,7 +301,7 @@ body {
     gap: 24px;
 }
 .portfolio-works li{
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 .portfolio-works li:nth-last-child(-n+3){
     margin-bottom: 120px;
