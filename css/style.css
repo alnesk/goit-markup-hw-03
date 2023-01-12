@@ -115,7 +115,7 @@ body {
     color: var(--hover);
 }
 /* Hero */
-.hero{
+.hero {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
@@ -152,10 +152,13 @@ body {
     background: var(--hover);
 }
 /* Company's quality */
+.quality-section{
+    padding-top: 120px;
+}
 .quality{
     display: flex;
     justify-content: space-between;
-    padding-top: 120px;
+    
 }
 .quality-tittle{
     margin-bottom: 8px;
@@ -180,6 +183,9 @@ body {
 }
 .photo-work li{
     margin-right: 24px;
+}
+.photo{
+    display: block;
 }
 .photo-work li:last-child{
     margin-right: 0;
@@ -227,6 +233,9 @@ body {
 }
 .worker-photo li:last-child{
     margin-right: 0;
+}
+.avatar{
+    display: block;
 }
 
 /* Footer */
@@ -285,6 +294,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 12px 24px;
     font-weight: 600;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: var(--light);
@@ -309,11 +319,12 @@ body {
 .portfolio-works{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
+    column-gap: 24px;
 }
-.portfolio-works li{
+/* .portfolio-works li{
     margin-bottom: 24px;
-}
+} */
 .portfolio-works li:nth-last-child(-n+3){
     margin-bottom: 0;
 } 
@@ -321,9 +332,13 @@ body {
     background: var(--without);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.portfolio-photo{
+    padding: 32px 16px;
+    border: 1px solid var(--light);
+    border-top: none;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .work-tittle{
-    margin-top: 32px;
-    margin-left: 16px;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -331,6 +346,4 @@ body {
 }
 .work-type{
     margin-top: 8px;
-    margin-left: 16px;
-    margin-bottom: 32px;
 }
